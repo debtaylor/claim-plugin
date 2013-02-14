@@ -87,3 +87,4 @@ The `claim.hpi` file must be uploaded to Jenkins. To do so, perform the followin
 2. Select **Manage Plugins** from the list of options that appear.
 3. Select the **Advanced** tab from the page that appears. 
 4. Go to the **Upload Plugin** section under the **Advanced** tab. Upload your `claim.hpi` file.
+5. Restart Jenkins once the upload is complete. Do this by entering the following URL: https://ibuild.dreampark.se/safeRestart. This restarts Jenkins and installs the manually-uploaded plug-in.
